@@ -27,7 +27,7 @@
       if (n < r) return !1;
       if (r === n) return t === e;
       t: for (var i = 0, o = 0; i < r; i++) {
-        for (var u = t.charCodeAt(i); o < n; ) if (e.charCodeAt(o++) === u) continue t;
+        for (var u = t.charCodeAt(i); o < n;) if (e.charCodeAt(o++) === u) continue t;
         return !1;
       }
       return !0;
